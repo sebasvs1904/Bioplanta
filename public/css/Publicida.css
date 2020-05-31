@@ -1,0 +1,41 @@
+/*formato del slider*/
+.slider{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    right: -200px;
+}
+/*formatos de ul de slider junto con animacion*/
+.slider ul{
+    padding: 0;
+    display: flex;
+    width: 500%;
+    
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+}
+/*vision del slider*/
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+/*formato img en el slider*/
+.slider img{
+    width: 100%;
+    height: 400px;
+}
+/*formato de tiempo de transicion*/
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+    100%{margin-left: -400%;}
+    120%{margin-left: -400%;}  
+}
+

@@ -1,0 +1,116 @@
+/*Panel de lista productos*/
+#panelcar{
+    width: 1260px;
+    height: 1011px;
+    font-family:sans-serif;
+    background:rgb(39, 174, 96);
+    padding: 0px;
+    flex: 1;
+    float: left;
+}
+
+/*contenedor de l.productos*/
+
+
+
+#internocar{
+    padding: 10px;
+    overflow:scroll;
+    position: relative;
+    left: -200px;
+    top: 100px;
+    
+    float:right;
+    width: 930px;
+    height: 500px;
+    background:rgb(46, 204, 113);
+}
+
+#internocar table {
+    top: 50px;
+    left: 50px;
+    width:850px;
+    height: auto;
+}
+
+#internocar table td{
+    width: 20px;
+    height: 20px;
+}
+
+
+/*formato de boton home*/
+
+#botonescar a{
+    top: 30px;
+ 
+    position: relative;
+    display: block;
+    left: 70%;
+    width: 80px;
+    color: #fff;
+    text-decoration:none;
+    padding: 7px;
+    margin-top: 1px;
+    margin: 6px;
+    border: 3px solid #aaa;
+    background: #45B39D;
+}
+
+a:hover{
+    background: rgba(90,80,80,0.7);
+}
+
+
+#quitar a{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: azure;
+    background: cadetblue;
+    padding: 3px;
+    text-shadow: 0.2em 0.2em 0.5em black;
+    padding: 3px;
+    border: 2px solid black; 
+    position: static;
+}
+#pago a{
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    background:deepskyblue;
+    left: 75%;
+    top: 5px;
+    display: block;
+    width: 75px;
+    height: 20px;
+    position: absolute;
+    text-align: center;
+    margin-top: 1px;
+    margin: 6px;
+    color: aliceblue;
+     padding: 7px;
+
+}
+/*black de pago*/
+#pago{
+    color: aliceblue;
+    border: 2px solid;
+    padding: 20px;
+    position: relative;
+    top: 650px;
+    width: 700px;
+    left: 250px;
+    font-family: Verdana;
+}
+
+#cartel{
+    color:cornsilk;
+    padding: 20px;
+    position:relative;
+    top: 650px;
+    width: 700px;
+    left: 500px;
+    font-family: Verdana;
+}

@@ -1,0 +1,139 @@
+/*formato de pantalla general*/
+html, body{
+  height:80vh;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+}
+
+/*formato para div base*/
+#panel{
+    width: 1260px;
+    height: 1350px;
+    font-family:sans-serif;
+    background:rgb(39, 174, 96);
+    padding: 0px;
+    flex: 1;
+    float: left;
+}
+
+/*formatos para div interno (muestra contenido) general y de productos*/
+#interno div{
+    height: 280px;
+}
+
+#interno{
+    padding: 10px;
+    overflow:scroll;
+    position: relative;
+    left: -100px;
+    top: -10px;
+    
+    float:right;
+    width: 750px;
+    height: 700px;
+    background:rgb(46, 204, 113);
+}
+
+#interno table {
+    width:700px;
+    height: auto;
+}
+
+#interno table td{
+    width: 45px;
+    height: 80px;
+}
+
+
+/*formato de menu*/
+#vmenu{
+  top: 140px;
+  right: 310px; 
+    float: left;
+}
+.vertical-menu {
+  width: 250px;  
+  position: relative;
+  
+}
+
+.vertical-menu a {
+  background: rgb(72, 201, 176); 
+  color:darkslategray; 
+  display:flex; 
+  padding: 10px; 
+  text-decoration: none; }
+
+.vertical-menu a:hover {
+  background: #45B39D; 
+  color:aliceblue;    
+}
+
+
+/*formato de botones logout, cuenta, +(categoria)*/
+
+#botones a{
+    top: 40px;
+    float: left;
+    position: relative;
+    display: block;
+    left: 60%;
+    width: 80px;
+    color: #fff;
+    text-decoration:none;
+    padding: 7px;
+    margin-top: 1px;
+    margin: 6px;
+    border: 3px solid #aaa;
+    background: #45B39D;
+}
+
+#botones a:hover{
+    background: rgba(90,80,80,0.7);
+}
+
+/*formato para botones de operacion como: modificar y eliminar*/
+#opemod{
+    text-shadow: 0.2em 0.2em 0.5em rgb(2, 100, 111);
+    width: 100px;
+    color: #fff;
+    text-decoration:none;
+    padding: 3px;
+    margin-top: 1px;
+    border: 3px solid #aaa;
+    background: rgb(244, 208, 63);
+    border-radius: 4px;
+}
+
+
+/*formato para imagen productos en Modificar producto*/
+#imgpro{
+    position:relative;
+    top: 5%;
+    left: 1%;
+}
+
+
+/*formato para encabezado del administrador*/
+#cabezaAmd table{
+    position: relative;
+    align-content: center;
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 0.2em 0.2em 0.5em rgb(2, 100, 111);
+    top: 20px;
+    left: 20px;
+    background: rgb(88, 214, 141);
+    padding: 10px;
+}
+
+#cabezaAmd td{
+    width: 600px;
+    height: auto;
+}
+
+#cabezaAmd img{
+    border-radius: 15px;
+}
+

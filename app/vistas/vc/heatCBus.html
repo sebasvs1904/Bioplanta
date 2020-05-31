@@ -1,0 +1,20 @@
+<link href="../css/buscador.css" rel="stylesheet" type="text/css"/>
+<!---cabecera con buscador----->
+
+
+ <div id="cabeza"> 
+           <table><tr><td>
+			<figure>
+				<img  src="<?php echo RUTA_URL?>img/LogoBioPlant.jpg" height="100px" width="150px"/>
+            </figure></td>
+            <td><h1>BioPlant.</h1></td>
+               <td>
+                   <a href="<?php echo RUTA_URL?>cliente/MostrarCarrito"><img  id="carrito" src="<?php echo RUTA_URL?>img/carrito.jpg" height="30px"  width="30px"/></a>
+                   <form action="<?php echo RUTA_URL?>cliente/buscar" method="get" class="form_search">
+    <input type="text" name="busqueda" id="busqueda" placeholder="Buscar..." value="busqueda">
+    <input type="submit" value="Buscar" class="btn_search">
+</form> 
+
+</form>    </td>  
+     </tr>
+     </table>

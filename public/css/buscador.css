@@ -1,0 +1,135 @@
+/*general clase buscador*/
+
+*{margin: 0px;
+margin-top: 0px;}
+
+
+
+/*formatos para el buscador*/
+.form_search{
+    height: 25px;
+    display: flex;
+    float: left;
+    background: initial;
+    padding: 10px;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+.form_search .btn_search{
+    background: rgb(247, 220, 111);
+    border-radius: 20px;
+    color: darkgreen;
+    padding: 0 20px;
+    border: 1px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#busqueda{
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+/*formato para cada producto*/
+#prod {
+    width: 24%;
+    font-family:verdana;
+    margin: 10px;
+    margin-top: 10px;
+    height: 70%;
+    padding: 5px;
+    top: 5px;
+    object-position:bottom;
+    align-content:flex-start;
+    background: rgb(244, 208, 63);
+    border-radius: 5px;
+    display: inline-flex;
+   
+}
+
+/*aside informacion catalogo*/
+#columna {
+top: 300px;
+width: 210px;
+height: 400px;
+margin: 20px 0px;
+padding: 20px;
+background: rgb(88, 214, 141);
+left: 20px;
+position: relative;
+text-align: justify;    
+}
+#columna blockquote{
+    position: absolute;
+    width: 198px;
+}
+
+
+/*Formato de mini footer general*/
+
+
+#piecata {
+position: relative;
+top: 315px;    
+clear: both;
+text-align: center;
+padding: 20px;
+border-top: 5px solid rgb(247, 220, 111);
+background: rgb(88, 214, 141);;     
+}
+
+/*formato de encabezado de cliente*/
+#cabeza table{
+    position: relative;
+    align-content: center;
+    font-family:sans-serif;
+    color:azure;
+    text-shadow: 0.2em 0.2em 0.5em rgb(247, 220, 111);
+    top: 20px;
+    left: 50px;
+    background: rgb(88, 214, 141);
+    padding: 10px;
+}
+
+#cabeza td{
+    width: 30%;
+    height: auto;
+}
+
+#cabeza img{
+    border-radius: 15px;
+    display: inline-flex;
+}
+
+
+/*formato de boton "Detalles"*/
+#verpro{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: azure;
+    background: rgb(46, 204, 113);
+    padding: 3px;
+    text-shadow: 0.2em 0.2em 0.5em black;
+    padding: 3px;
+    border: 2px solid green;
+    }
+
+
+/*formato botones catalogo logout,cuente,etc*/
+#botonesC a{
+    position: relative;
+    left: 75%;
+    width: 100px;
+    color: #fff;
+    text-decoration:none;
+    padding: 7px;
+    margin-top: 1px;
+    border: 3px solid #aaa;
+    background: #45B39D;
+}
+
+#botonesC a:hover{
+    background: rgba(90,80,80,0.7);
+}

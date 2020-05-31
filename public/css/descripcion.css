@@ -1,0 +1,101 @@
+/*formato de letras de descripcion de producto*/
+
+h1{
+    color: white;
+     text-shadow: 0.2em 0.2em 0.5em black;
+}
+
+
+h3{
+    color: aliceblue;
+     text-shadow: 0.2em 0.2em 0.5em black;color: aliceblue;
+     text-shadow: 0.2em 0.2em 0.5em black;
+}
+
+
+/*base ce descripcion de producto*/
+#panelbase{
+   padding: 10px;
+    position: relative;
+    left: -100px;
+    top: 70px;
+    float:right;
+    width: 750px;
+    height: 600px;
+    background:rgb(46, 204, 113); 
+}
+
+/*panel interior de descripcion del producto*/
+#paneldescriptivo{
+   width: 750px;
+    background: rgb(244, 208, 63);
+    height: 600px; 
+    font-family: Maiandra GD;
+}     
+
+/*formato de la imgen de desc d produ*/
+#imgdescri{
+    position: static;
+}
+
+/*formato del boton agregar al carrito*/
+#botonesdesc a{
+    font-family:Papyrus;
+    top: 15px;
+    float: left;
+    position: relative;
+    display: block;
+    left: 10%;
+    width: 125px;
+    color: #fff;
+    text-decoration:none;
+    padding: 12px;
+    margin-top: 1px;
+    margin: 6px;
+    background: cornflowerblue;
+    border-radius: 30px;
+    text-shadow: 0.2em 0.2em 0.5em black;
+    border: 2px solid white;
+}
+
+
+
+/*columna y bloque del texto descriptivo*/
+
+#columna1 {
+top: 5px;
+width: 400px;
+height: 310px;
+margin: 20px 0px;
+padding: 20px;
+
+left: 20px;
+position: relative;
+text-align: justify; 
+display: inline-block;
+}
+#columna1 blockquote{
+    position: absolute;
+    width: 350px;
+}
+
+
+
+/*columna y bloque de la imagen y boton prod*/
+#columna2 {
+    display: inline-block;
+top: 0px;
+width: 210px;
+height: 310px;
+margin: 20px 0px;
+padding: 20px;
+
+left: 20px;
+position: relative;
+text-align: justify;    
+}
+
+#columna2 blockquote{
+    position: absolute;
+    width: 200px;
+}

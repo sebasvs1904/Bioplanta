@@ -1,0 +1,105 @@
+/*formato de pantalla general*/
+html, body{
+  height:100vh;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+}
+
+/*formato para div base catalogo*/
+#panel{
+    width: 1260px;
+    height: 1700px;
+    font-family:sans-serif;
+    background:rgb(39, 174, 96);
+    padding: 0px;
+    flex: 1;
+    float: left;
+}
+/*formato del div base buscador y categorias*/
+#panelbus{
+    width: 1260px;
+    height: 1200px;
+    font-family:sans-serif;
+    background:rgb(39, 174, 96);
+    padding: 0px;
+    flex: 1;
+    float: left;
+}
+
+/*formatos para div interno (muestra contenido) general y de productos*/
+#interno div{
+    height: 280px;
+}
+
+#interno{
+    padding: 10px;
+    overflow:scroll;
+    position: relative;
+    left: -100px;
+    top: 100px;
+    
+    float:right;
+    width: 750px;
+    height: 700px;
+    background:rgb(46, 204, 113);
+}
+
+#interno table {
+    width:700px;
+    height: auto;
+}
+
+#interno table td{
+    width: 45px;
+    height: 80px;
+}
+
+
+/*formato de menu*/
+#vmenu{
+  top: 50px;
+  right: -20px; 
+    float: left;
+}
+.vertical-menu {
+  width: 250px;  
+  position: relative;
+  
+}
+
+.vertical-menu a {
+  background: rgb(72, 201, 176); 
+  color:darkslategray; 
+  display:flex; 
+  padding: 10px; 
+  text-decoration: none; }
+
+.vertical-menu a:hover {
+  background: #45B39D; 
+  color:aliceblue;    
+}
+
+
+/*formato de botones logout, cuenta, +(categoria)*/
+
+#botones a{
+    top: 20px;
+    float: left;
+    position: relative;
+    display: block;
+    left: 50%;
+    width: 60px;
+    color: #fff;
+    text-decoration:none;
+    padding: 7px;
+    margin-top: 1px;
+    margin: 6px;
+    border: 3px solid #aaa;
+    background: #45B39D;
+}
+
+#botones a:hover{
+    background: rgba(90,80,80,0.7);
+}
+

@@ -1,0 +1,151 @@
+/*formato de pantalla general*/
+html, body{
+  height:80vh;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+}
+
+/*formato para div base*/
+#panelven{
+    width: 1300px;
+    height: 1300px;
+    font-family:sans-serif;
+    background:rgb(39, 174, 96);
+    padding: 0px;
+    flex: 1;
+    float: left;
+}
+
+/*formatos para div interno (muestra contenido) general y de ventass*/
+#internoven div{
+    height: 280px;
+}
+
+#internoven{
+    padding: 10px;
+    overflow:scroll;
+    position: relative;
+    left: 190px;
+    top: 80px;
+    float:left;
+    width: 750px;
+    height: 700px;
+    background:rgb(46, 204, 113);
+}
+
+#internoven table {
+    width:700px;
+    height: auto;
+}
+
+#internoven table td{
+    width: 45px;
+    height: 80px;
+}
+
+
+/*formato de menu*/
+#vmenu{
+  top: 60px;
+  right: -20px; 
+    float: left;
+}
+.vertical-menu {
+  width: 250px;  
+  position: relative;
+  
+}
+
+.vertical-menu a {
+  background: rgb(72, 201, 176); 
+  color:darkslategray; 
+  display:flex; 
+  padding: 10px; 
+  text-decoration: none; }
+
+.vertical-menu a:hover {
+  background: #45B39D; 
+  color:aliceblue;    
+}
+
+
+/*formato de botones para venta*/
+
+#botones a{
+    top: 40px;
+    float: left;
+    position: relative;
+    display: block;
+    left: 60%;
+    width: 80px;
+    color: #fff;
+    text-decoration:none;
+    padding: 7px;
+    margin-top: 1px;
+    margin: 6px;
+    border: 3px solid #aaa;
+    background: #45B39D;
+}
+
+#botones a:hover{
+    background: rgba(90,80,80,0.7);
+}
+
+/*formato para botones de operacion como: modificar y eliminar*/
+#opemod{
+    text-shadow: 0.2em 0.2em 0.5em rgb(2, 100, 111);
+    width: 100px;
+    color: #fff;
+    text-decoration:none;
+    padding: 3px;
+    margin-top: 1px;
+    border: 3px solid #aaa;
+    background: rgb(244, 208, 63);
+    border-radius: 4px;
+}
+
+
+
+
+
+/*formato para encabezado del administrador*/
+#cabezaAmd table{
+    position: relative;
+    align-content: center;
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 0.2em 0.2em 0.5em rgb(2, 100, 111);
+    top: 20px;
+    left: 20px;
+    background: rgb(88, 214, 141);
+    padding: 10px;
+}
+
+#cabezaAmd td{
+    width: 600px;
+    height: auto;
+}
+
+#cabezaAmd img{
+    border-radius: 15px;
+}
+
+/*formato del formulario*/
+form {
+    left: 10%;
+    top: 100px;
+    position: relative;
+    color:aliceblue;
+    font-family:monospace;
+}
+
+form input[type="submit"]{
+    background:deepskyblue;
+    width: 80px;
+    color:white;
+    font-family:monospace;
+    padding: 2px;
+    border-radius: 6px;
+    border: 2px solid white;
+}

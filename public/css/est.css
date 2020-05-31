@@ -1,0 +1,73 @@
+.form{
+	position: relative;
+	width: 700px;
+	height:1400px;
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color: lightgreen;
+	border-radius: 20px;
+	margin: auto;
+}
+h2{
+	font: 35px normal normal uppercase helvetica, arial, serif;
+	text-align: center;
+}
+h4{
+	font: 20px normal normal uppercase helvetica, arial, serif;
+	
+}
+
+input [type=text],[type=email]{
+	width: 400px;
+	height: 25px;
+	font: 15px normal normal uppercase helvetica, arial, serif;
+}
+
+textarea{
+	width: 470px;
+	height: 110px;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+}
+input[type=submit]{
+	position: relative;
+	width: 150px;
+	height: 40px;
+	border-radius: 20px;
+	margin-left: 150px;
+	border: 0px;
+	background-color: #001BFF;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+}
+input[type=button]{
+	position: relative;
+	width: 150px;
+	height: 40px;
+	border-radius: 20px;
+	margin-left: 150px;
+	border: 0px;
+	background-color: #001BFF;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+}
+p{
+	text-shadow: 0 1px 0 #fff;
+	font-size: 20px;
+}
+label{
+margin: 11px 20 px 0 0;
+font-size: 16px;
+color: #b3aba1;
+text-transform:uppercase; 
+text-shadow:0px 1x 0px #fff;
+}
+input [type=text],[name=CP],[name=FechaVenc],[name=CVV]{
+	width: 90px;
+	height: 13PX;
+	font: 15px normal normal uppercase helvetica, arial, serif;
+
+}
+input [type=text],[name=Numeracion]{
+	width: 300px;
+	height: 14PX;
+	font: 15px normal normal uppercase helvetica, arial, serif;
+
+}
